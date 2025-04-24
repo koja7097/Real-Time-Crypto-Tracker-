@@ -1,12 +1,29 @@
-# React + Vite
+Real-Time Crypto Tracker
+Description: A responsive React (vite) application that tracks and displays real-time cryptocurrency prices, stimulating live updates via a mock WebSocket built with Redux Toolkit for efficient state management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+* Live crypto price updates every 2secs (stimulated)
+* Responsive table with 5 key assets (BTC, ETH, USDT, BNB, SOL)
+* Color-coded percentage changes (green = positive & red = negative)
+* Static 7D chart display
+* Clean and modern UI
 
-Currently, two official plugins are available:
+  DEMO
+  Video LINK : https://www.dropbox.com/scl/fi/ja5onugmc3grbgf0v7wyz/20250424_220040.mp4?rlkey=vy57h5xsu640e7d5i0mhkh58z&st=py0ayfkg&dl=0  (SHOWCASEING THE UI AND WALKTHROUH)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  TECH STACK:
+  Frontend: React, Redux Toolkit
+  Styling: CSS(Responsive design)
+  State Management: Redux Toolkit
+  Mock WebSocket: setInterval
 
-## Expanding the ESLint configuration
+  #To Run My code on your PC
+  git clone "repository URL" (in your terminal or whatever you using)
+  cd Real-time Crypto-tracker
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  # install dependencies
+  npm install
+
+  # Run in the app
+  npm run dev (and then view it in your browser)
+  it will run "http://localhost:5173/" by default
