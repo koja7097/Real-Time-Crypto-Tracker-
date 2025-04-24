@@ -5,11 +5,18 @@ overflow-x: auto;
 padding: 1rem;
 -webkit-overflow-scrolling: touch;
 }
+
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .crypto-table{
     width: 100%;
     border-collapse: collapse;
     font-size: 1rem;
-    min-width: 1000px;
+    min-width: 500px;
 }
 .crypto-table th,
 .crypto-table td{
@@ -28,6 +35,9 @@ text-align: center;
 }
 
 @media (max-width:768px) {
+    .container{
+        text-align: center;
+    }
     .table-container{
         overflow: hidden;
     }
@@ -45,7 +55,7 @@ text-align: center;
     .crypto-table tbody{
         display: block;
         overflow-y: auto;
-        max-height: 400px;
+        max-height: 700px;
     }
    
     .crypto-table th::before {

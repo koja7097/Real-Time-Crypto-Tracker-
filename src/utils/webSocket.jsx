@@ -18,5 +18,5 @@ export const startMockSocket = (store) => {
             };
             store.dispatch(updateAsset({id: assets.id, updates}))
         });
-    }, 5000); // updates every 15secs
+    }, 2000); // updates every 15secs
 }

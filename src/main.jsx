@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { Provider } from 'react-redux';
-import { store } from './apps/store.jsx';
-import { startMockSocket } from './utils/mocksocket.jsx'; 
+import { store } from './apps/ReduxStore.jsx';
+import { startMockSocket } from './utils/webSocket.jsx'; 
 
 startMockSocket(store);
 
